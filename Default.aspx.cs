@@ -15,6 +15,7 @@ public partial class _Default : System.Web.UI.Page
         Response.Write(Server.MachineName.ToString());
         Response.Write("<br>");
         Response.Write(DateTime.Now.ToString());
+//Thread.Sleep(5000);
         //Response.Write(b/a);
 
     }
